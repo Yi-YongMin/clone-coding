@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <title>Home-My First Website.</title>
+  <!--상단에 뜨는 웹사이트 제목-->
+  <!--html tags mdn을 구글링하여 tag들을 적재적소에 활용할 것-->
+  <!--ctrl+d를 누르면 tag들을 동시에 바꿀 수 있다-->
+  <head>
+    <!--head태그에 있는것들은 보이지 않는것들.-->
+    <link href="styles.css" rel="stylesheet" />
+    <style>
+      * {
+        border: 2px solid black;
+      }
+      html {
+        background-color: tomato;
+      }
+      body {
+        background-color: thistle;
+      }
+      h1 {
+        color: blue;
+        font-size: 20px;
+      }
+      div {
+        padding: 10px;
+        border: 2px solid black;
+      }
+      #first {
+        height: 150px;
+        width: 150px;
+        background-color: whitesmoke;
+      }
+      #second {
+        height: 100px;
+        width: 100px;
+        background-color: teal;
+      }
+      #third {
+        height: 50px;
+        width: 50px;
+        background-color: wheat;
+      }
+      #fourth {
+        height: 25px;
+        width: 25px;
+        background-color: blanchedalmond;
+      }
+    </style>
+
+    <!--<meta charset="utf-8" />-->
+    <!--<meta name="description" content="This is my website" />-->
+    <!--meta는 부가적인 요소, 즉 보이지 않음. 구글에서 서치하면 보이는게 아랫줄-->
+  </head>
+  <body>
+    <div id="first">
+      <div id="second">
+        <div id="third">
+          <span>hello</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
